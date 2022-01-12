@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+
+<body>
+    <h1>Survey</h1>
+    <ul>
+        <li><a href="page1.html">Homepage</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="video.html">Tracy Mcgrady Top 5 Plays of Career</a></li>
+        <li><a href="images.asp">My Favourite Shots of Tracy </a></li>
+    </ul>
+
+    <p class="survey-heading">
+        Who is your most favourite NBA player? Maybe we can be friends!
+    </p>
+    <form method="post">
+        <fieldset>
+            <legend class="legend">Let's connect!</legend>
+
+            <p>
+                <label for="user-name">Your Name:</label>
+                <input type="text" id="user-name">
+            </p>
+
+            <p>
+                <label for="user-email">Your Email:</label>
+                <input type="email" id="user-email">
+            </p>
+
+            <p>
+                <label for="date">When did you start watching NBA? :</label>
+                <input type="date" id="date">
+            </p>
+
+            <p>
+                <label for="favourite-player">Who is your favoutire player:</label>
+                <input type="text" id="favourite-player">
+            </p>
+
+            <p>
+                <label>Do you also like Tracy Mcgrady?</label>
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="like">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="like">
+            </p>
+
+            <p>
+                <label for="reason">If no, why not?</label>
+                <textarea id="reason"></textarea>
+            </p>
+
+            <p>
+                <button id="submit" type="submit">Submit</button>
+                <button id="reset" type="reset">Reset</button>
+            </p>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>
