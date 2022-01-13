@@ -1,0 +1,62 @@
+ul.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li.point{
+    display: block;
+    float: left;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 1px solid rgb(0, 132, 255);
+    font-size:large;
+}
+
+a.point{
+    /* display: block; */
+    margin: 100px;
+    padding: 50px;
+
+}
+
+h1 {
+    text-align: center;
+    background-color:bisque
+}
+
+h2{
+    text-align: left;
+    /* display: block; */
+    padding: 10px;
+    font-size: 40px;
+}
+
+body{
+    background-color: #daddd8;
+}
+
+.biography{
+    font-size:large;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.heading{
+    display: block;
+
+    font-size: 45px;
+}
+
+p.description{
+    font-size: large;
+    font-weight: bold;
+}
+
+.gallery{
+    border: 11px ridge #f6d0b1
+}
